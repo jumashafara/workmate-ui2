@@ -16,6 +16,7 @@ import Tables from "./pages/Tables";
 import Alerts from "./pages/UiElements/Alerts";
 import Buttons from "./pages/UiElements/Buttons";
 import DefaultLayout from "./layout/DefaultLayout";
+import Chat from "./pages/Chat";
 
 function App() {
   const [loading, setLoading] = useState<boolean>(true);
@@ -38,8 +39,17 @@ function App() {
           index
           element={
             <>
-              <PageTitle title="Dashboard | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Dashboard | RTV WorkMate" />
               <ECommerce />
+            </>
+          }
+        />
+        <Route
+          path="/chat"
+          element={
+            <>
+              <PageTitle title="Chat | RTV WorkMate" />
+              <Chat />
             </>
           }
         />
@@ -47,7 +57,7 @@ function App() {
           path="/calendar"
           element={
             <>
-              <PageTitle title="Calendar | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Calendar | RTV WorkMate" />
               <Calendar />
             </>
           }
@@ -56,7 +66,7 @@ function App() {
           path="/profile"
           element={
             <>
-              <PageTitle title="Profile | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Profile | RTV WorkMate" />
               <Profile />
             </>
           }
@@ -65,7 +75,7 @@ function App() {
           path="/forms/form-elements"
           element={
             <>
-              <PageTitle title="Form Elements | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Form Elements | RTV WorkMate" />
               <FormElements />
             </>
           }
@@ -74,7 +84,7 @@ function App() {
           path="/forms/form-layout"
           element={
             <>
-              <PageTitle title="Form Layout | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Form Layout | RTV WorkMate" />
               <FormLayout />
             </>
           }
@@ -83,7 +93,7 @@ function App() {
           path="/tables"
           element={
             <>
-              <PageTitle title="Tables | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Tables | RTV WorkMate" />
               <Tables />
             </>
           }
@@ -92,7 +102,7 @@ function App() {
           path="/settings"
           element={
             <>
-              <PageTitle title="Settings | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Settings | RTV WorkMate" />
               <Settings />
             </>
           }
@@ -101,7 +111,7 @@ function App() {
           path="/chart"
           element={
             <>
-              <PageTitle title="Basic Chart | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Basic Chart | RTV WorkMate" />
               <Chart />
             </>
           }
@@ -110,7 +120,7 @@ function App() {
           path="/ui/alerts"
           element={
             <>
-              <PageTitle title="Alerts | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Alerts | RTV WorkMate" />
               <Alerts />
             </>
           }
@@ -119,7 +129,7 @@ function App() {
           path="/ui/buttons"
           element={
             <>
-              <PageTitle title="Buttons | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Buttons | RTV WorkMate" />
               <Buttons />
             </>
           }
@@ -128,7 +138,7 @@ function App() {
           path="/auth/signin"
           element={
             <>
-              <PageTitle title="Signin | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Signin | RTV WorkMate" />
               <SignIn />
             </>
           }
@@ -137,7 +147,7 @@ function App() {
           path="/auth/signup"
           element={
             <>
-              <PageTitle title="Signup | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Signup | RTV WorkMate" />
               <SignUp />
             </>
           }

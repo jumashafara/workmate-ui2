@@ -1,27 +1,28 @@
-import Breadcrumb from '../../components/Breadcrumbs/Breadcrumb';
-import CheckboxFive from '../../components/Checkboxes/CheckboxFive';
-import CheckboxFour from '../../components/Checkboxes/CheckboxFour';
-import CheckboxOne from '../../components/Checkboxes/CheckboxOne';
-import CheckboxThree from '../../components/Checkboxes/CheckboxThree';
-import CheckboxTwo from '../../components/Checkboxes/CheckboxTwo';
-import SwitcherFour from '../../components/Switchers/SwitcherFour';
-import SwitcherOne from '../../components/Switchers/SwitcherOne';
-import SwitcherThree from '../../components/Switchers/SwitcherThree';
-import SwitcherTwo from '../../components/Switchers/SwitcherTwo';
-import DatePickerOne from '../../components/Forms/DatePicker/DatePickerOne';
-import DatePickerTwo from '../../components/Forms/DatePicker/DatePickerTwo';
-import SelectGroupTwo from '../../components/Forms/SelectGroup/SelectGroupTwo';
-import MultiSelect from '../../components/Forms/MultiSelect';
+import Breadcrumb from "../../components/Breadcrumbs/Breadcrumb";
+// import CheckboxFive from "../../components/Checkboxes/CheckboxFive";
+// import CheckboxFour from "../../components/Checkboxes/CheckboxFour";
+// import CheckboxOne from "../../components/Checkboxes/CheckboxOne";
+// import CheckboxThree from "../../components/Checkboxes/CheckboxThree";
+// import CheckboxTwo from "../../components/Checkboxes/CheckboxTwo";
+// import SwitcherFour from "../../components/Switchers/SwitcherFour";
+// import SwitcherOne from "../../components/Switchers/SwitcherOne";
+// import SwitcherThree from "../../components/Switchers/SwitcherThree";
+// import SwitcherTwo from "../../components/Switchers/SwitcherTwo";
+// import DatePickerOne from "../../components/Forms/DatePicker/DatePickerOne";
+// import DatePickerTwo from "../../components/Forms/DatePicker/DatePickerTwo";
+// import SelectGroupTwo from "../../components/Forms/SelectGroup/SelectGroupTwo";
+// import MultiSelect from "../../components/Forms/MultiSelect";
 
 const FormElements = () => {
   return (
     <>
-      <Breadcrumb pageName="Form Elements" />
+      <Breadcrumb pageName="Use Link" />
 
       <div className="grid grid-cols-1 gap-9 sm:grid-cols-2">
         <div className="flex flex-col gap-9">
+          <h1>To be implemented</h1>
           {/* <!-- Input Fields --> */}
-          <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
+          {/* <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
             <div className="border-b border-stroke py-4 px-6.5 dark:border-strokedark">
               <h3 className="font-medium text-black dark:text-white">
                 Input Fields
@@ -62,10 +63,10 @@ const FormElements = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* <!-- Toggle switch input --> */}
-          <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
+          {/* <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
             <div className="border-b border-stroke py-4 px-6.5 dark:border-strokedark">
               <h3 className="font-medium text-black dark:text-white">
                 Toggle switch input
@@ -77,10 +78,10 @@ const FormElements = () => {
               <SwitcherThree />
               <SwitcherFour />
             </div>
-          </div>
+          </div> */}
 
           {/* <!-- Time and date --> */}
-          <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
+          {/* <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
             <div className="border-b border-stroke py-4 px-6.5 dark:border-strokedark">
               <h3 className="font-medium text-black dark:text-white">
                 Time and date
@@ -90,10 +91,10 @@ const FormElements = () => {
               <DatePickerOne />
               <DatePickerTwo />
             </div>
-          </div>
+          </div> */}
 
           {/* <!-- File upload --> */}
-          <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
+          {/* <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
             <div className="border-b border-stroke py-4 px-6.5 dark:border-strokedark">
               <h3 className="font-medium text-black dark:text-white">
                 File upload
@@ -120,12 +121,12 @@ const FormElements = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="flex flex-col gap-9">
           {/* <!-- Textarea Fields --> */}
-          <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
+          {/* <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
             <div className="border-b border-stroke py-4 px-6.5 dark:border-strokedark">
               <h3 className="font-medium text-black dark:text-white">
                 Textarea Fields
@@ -166,10 +167,10 @@ const FormElements = () => {
                 ></textarea>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* <!-- Checkbox and radio --> */}
-          <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
+          {/* <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
             <div className="border-b border-stroke py-4 px-6.5 dark:border-strokedark">
               <h3 className="font-medium text-black dark:text-white">
                 Checkbox and radio
@@ -182,10 +183,10 @@ const FormElements = () => {
               <CheckboxFour />
               <CheckboxFive />
             </div>
-          </div>
+          </div> */}
 
           {/* <!-- Select input --> */}
-          <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
+          {/* <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
             <div className="border-b border-stroke py-4 px-6.5 dark:border-strokedark">
               <h3 className="font-medium text-black dark:text-white">
                 Select input
@@ -195,7 +196,7 @@ const FormElements = () => {
               <SelectGroupTwo />
               <MultiSelect id="multiSelect" />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
